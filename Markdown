@@ -1,0 +1,14 @@
+# Ticketer 🎟️
+
+A fun mock ticket machine website built with HTML, CSS, and JavaScript.
+
+## Features
+- Enter your name and route
+- Generate a ticket with timestamp
+- Display ticket status
+
+## How to Run
+1. Clone the repo
+2. Open `index.html` in your browser
+
+Enjoy your ride with Ticketer!
