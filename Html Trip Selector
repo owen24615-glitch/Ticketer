@@ -1,0 +1,10 @@
+<select id="tripSelector">
+  <option value="trip1">Trip 1</option>
+  <option value="trip2">Trip 2</option>
+  <option value="trip3">Trip 3</option>
+  <option value="trip4">Trip 4</option>
+  <option value="trip5">Trip 5</option>
+  <option value="trip6">Trip 6</option>
+  <option value="trip7">Trip 7</option>
+  <option value="trip8">Trip 8</option>
+</select>
