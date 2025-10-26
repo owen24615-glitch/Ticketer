@@ -1,0 +1,7 @@
+git clone https://github.com/owen24615-glitch/Ticketer.git
+cd Ticketer
+git rm -r *
+echo "# Ticketer wiped" > README.md
+git add .
+git commit -m "Wipe all files"
+git push origin main
