@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ticketer Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+    input {
+      padding: 10px;
+      margin: 10px;
+      font-size: 1em;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+  <h2>Ticketer Login</h2>
+  <form onsubmit="login(event)">
+    <input type="text" id="username" placeholder="Numeric Username" required />
+    <input type="password" id="password" placeholder="Numeric Password" required />
+    <button type="submit">Login</button>
+  </form>
+
+  <script>
+    function login(e) {
+      e.preventDefault();
+      const user = document.getElementById("username").value;
+      const pass = document.getElementById("password").value;
+
+      const isNumeric = /^\d+$/;
+
+      if (!isNumeric.test(user) || !isNumeric.test(pass)) {
+        alert("Username and password must be numbers only.");
+        return;
+      }
+
+      alert("Login successful (placeholder)");
+      // Replace with real logic later
+    }
+  </script>
+</body>
+</html>
